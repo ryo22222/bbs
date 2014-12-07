@@ -1,3 +1,4 @@
+# coding: utf-8
 source 'https://rubygems.org'
 
 
@@ -38,3 +39,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'therubyracer' # javascript runtime。lessをコンパイルするために必要
+gem 'less-rails' # Railsでlessを使えるようにする。Bootstrapがlessで書かれているため
+gem 'twitter-bootstrap-rails' # Bootstrapの本体
